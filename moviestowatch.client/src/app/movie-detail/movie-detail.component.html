@@ -1,0 +1,15 @@
+<div *ngIf="movie" class="movie-details-wrapper">
+    <h2>{{ movie.title }}</h2>
+    <p>{{ movie.overview }}</p>
+
+    <div class="gallery">
+        <img *ngFor="let image of movie.images" [src]="imageBasePath + image" alt="Movie image" />
+    </div>
+
+    <h3>Top Cast:</h3>
+    <p>{{ movie.actors.join(', ') }}</p>
+
+    <div *ngIf="isLoggedIn">
+        <app-movie-comments [movieId]="movie.id"></app-movie-comments>
+    </div>
+</div>

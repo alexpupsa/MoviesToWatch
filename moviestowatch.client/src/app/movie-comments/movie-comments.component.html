@@ -1,0 +1,12 @@
+<div>
+    <h3>Comments</h3>
+
+    <div>
+        <input type="text" [(ngModel)]="newComment" placeholder="Add a comment" class="form-control" />
+        <button (click)="addComment()" [disabled]="!movieId || !newComment" class="btn btn-primary">Submit</button>
+    </div>
+
+    <div *ngFor="let comment of comments">
+        <p><strong>{{ comment.createdAt | date:'dd-MMM-yyyy HH:mm' }}:</strong> {{ comment.comment }}</p>
+    </div>
+</div>

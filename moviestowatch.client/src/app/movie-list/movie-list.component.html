@@ -1,0 +1,10 @@
+<h2 *ngIf="title">{{title}}</h2>
+<div class="movie-list">
+    <div *ngFor="let movie of movies" (click)="viewDetails(movie.id)">
+        <div class="movie-card">
+            <p><img [src]="imageBasePath + movie.posterPath" alt="Poster path" /></p>
+            <h3>{{ movie.title }}</h3>
+            <p>{{ movie.releaseDate | date }}</p>
+        </div>
+    </div>
+</div>

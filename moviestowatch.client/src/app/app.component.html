@@ -1,0 +1,21 @@
+<div class="app-container">
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a routerLink="/top-movies">Top Movies</a></li>
+            <li><a routerLink="/latest-movies">Latest Movies</a></li>
+            <li><a routerLink="/search">Search Movies</a></li>
+            <li *ngIf="!isLoggedIn"><a routerLink="/login">Login</a></li>
+            <li *ngIf="isLoggedIn"><a (click)="logout()">Logout</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <div class="movie-list">
+            <router-outlet></router-outlet>
+        </div>
+
+        <div class="movie-details">
+            <app-movie-detail></app-movie-detail>
+        </div>
+    </div>
+</div>

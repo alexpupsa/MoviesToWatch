@@ -1,0 +1,29 @@
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.movie-card {
+    width: 150px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.movie-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.movie-card h3 {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+.movie-card p {
+    font-size: 0.9rem;
+    color: #555;
+}

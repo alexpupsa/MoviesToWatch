@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "moviestowatch.client", "moviestowatch.client\moviestowatch.client.esproj", "{78A1D83D-5CFF-9A7B-3A23-FB456D7A2CAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesToWatch.Server", "MoviesToWatch.Server\MoviesToWatch.Server.csproj", "{AFF117B2-C7C3-4638-9A1C-473858FF9E55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesToWatch.UnitTests", "MoviesToWatch.UnitTests\MoviesToWatch.UnitTests.csproj", "{4ED919D5-9B47-405A-9BCF-B42203D4F6EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78A1D83D-5CFF-9A7B-3A23-FB456D7A2CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78A1D83D-5CFF-9A7B-3A23-FB456D7A2CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78A1D83D-5CFF-9A7B-3A23-FB456D7A2CAC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{78A1D83D-5CFF-9A7B-3A23-FB456D7A2CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78A1D83D-5CFF-9A7B-3A23-FB456D7A2CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78A1D83D-5CFF-9A7B-3A23-FB456D7A2CAC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AFF117B2-C7C3-4638-9A1C-473858FF9E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFF117B2-C7C3-4638-9A1C-473858FF9E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFF117B2-C7C3-4638-9A1C-473858FF9E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFF117B2-C7C3-4638-9A1C-473858FF9E55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ED919D5-9B47-405A-9BCF-B42203D4F6EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED919D5-9B47-405A-9BCF-B42203D4F6EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED919D5-9B47-405A-9BCF-B42203D4F6EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED919D5-9B47-405A-9BCF-B42203D4F6EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E9EB8D7-79A7-4E7D-8CCB-E0BDF9AE0148}
+	EndGlobalSection
+EndGlobal
